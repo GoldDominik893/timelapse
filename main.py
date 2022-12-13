@@ -1,6 +1,5 @@
 import cv2
 import time
-import numpy as np
 import glob
 
 usercam = int(input('Choose camera input (0-5): '))
@@ -26,8 +25,6 @@ fpsrender = int(input('Choose the fps for the rendered clip: '))
 cv2.namedWindow("test")
 
 img_counter = 0
-brek = 0
-
 
 while True and img_counter < frames:
     ret, frame = camera.read()
