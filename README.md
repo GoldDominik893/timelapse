@@ -6,3 +6,8 @@
 ``` 
 pip install opencv-python
 ```
+
+## License
+
+This software is Licensed under the [MIT License](/LICENSE). Copyright (c) 2025 Dominik Wajda
+You are bound to the terms of the license if you download, use or want to distrubute this software.
